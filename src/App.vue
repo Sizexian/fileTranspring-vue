@@ -1,0 +1,22 @@
+<script setup>
+import FileBrowser from '@/components/FileBrowser.vue'
+</script>
+
+<template>
+    <div>
+        <el-container>
+            <el-main>
+                <FileBrowser />
+            </el-main>
+            <el-footer>
+                <el-text>fileTranspring © 2024 </el-text>
+                <el-link href="https://github.com/Sizexian/fileTranspring" target="_blank" type="primary">Github
+                    repo</el-link>
+            </el-footer>
+        </el-container>
+    </div>
+</template>
+
+<style scoped>
+@import 'assets/main.css';
+</style>

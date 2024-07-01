@@ -1,0 +1,14 @@
+.el-footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    max-height: 5%;
+}
+
+.el-main {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    max-height: 95%;
+}

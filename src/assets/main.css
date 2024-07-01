@@ -1,14 +1,30 @@
-.el-footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    text-align: center;
-    max-height: 5%;
-}
-
-.el-main {
-    width: 100%;
+/* el-header 样式 */
+.el-header {
     position: fixed;
     top: 0;
-    max-height: 95%;
-}
+    width: 100%;
+    background-color: #ffffff; /* 设置顶部导航栏的背景色 */
+    color: #000000; /* 设置顶部导航栏的文字颜色 */
+    padding: 10px 0; /* 可根据需要调整顶部导航栏的内边距 */
+    z-index: 1000; /* 确保顶部导航栏位于其他内容上方 */
+  }
+  
+  /* el-main 样式 */
+  .el-main {
+    padding-top: 60px; /* 偏移顶部导航栏的高度，确保内容不被遮挡 */
+    padding-bottom: 60px; /* 偏移底部 footer 的高度，确保内容不被遮挡 */
+  }
+  
+  /* el-footer 样式 */
+  .el-footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    max-height: 5%;
+    width: 100%;
+    background-color: #ffffff; /* 设置底部 footer 的背景色 */
+    color: #000000; /* 设置底部 footer 的文字颜色 */
+    padding: 10px 0; /* 可根据需要调整底部 footer 的内边距 */
+    z-index: 1000; /* 确保底部 footer 位于其他内容上方 */
+  }

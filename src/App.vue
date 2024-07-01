@@ -1,10 +1,14 @@
 <script setup>
 import FileBrowser from '@/components/FileBrowser.vue'
+import Header from '@/components/Header.vue'
 </script>
 
 <template>
     <div>
         <el-container>
+            <el-header>
+                <Header />
+            </el-header>
             <el-main>
                 <FileBrowser />
             </el-main>
